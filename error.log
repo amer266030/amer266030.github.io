@@ -171,3 +171,10 @@ remote: Please see https://github.blog/2020-12-15-token-authentication-requireme
 fatal: Authentication failed for 'https://github.com/amer266030/amer266030.github.io/'
 
 
+----------
+
+Sun Oct 03 2021 10:12:15 GMT+0300 (Arabian Standard Time)
+
+fatal: could not read Username for 'https://github.com': Device not configured
+
+
