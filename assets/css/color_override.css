@@ -1,0 +1,116 @@
+:root {
+  --bs-primary: #1df5aa !important;
+  --bs-secondary: #d28b30;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+  --bs-bg-dark: #212529;
+}
+
+a:focus, a:hover {
+  color: #D28B30;
+}
+
+a:hover {
+  --bs-link-color-rgb: var(--bs-primary-rgb);
+}
+
+footer ul li a {
+  color: #27262e;
+}
+
+.border-primary {
+  --bs-border-opacity: 1;
+  border-color: #1DF5AA;
+}
+
+.btn-primary {
+  --bs-btn-color: #1df5aa;
+  --bs-btn-bg: #27262e;
+  --bs-btn-border-color: #ffffff;
+  --bs-btn-hover-color: #27262e;
+  --bs-btn-hover-bg: #1df5aa;
+  --bs-btn-hover-border-color: #27262e;
+  --bs-btn-focus-shadow-rgb: #1df5aa;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #2c4fc3;
+  --bs-btn-active-border-color: #294ab7;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #2c3e50;
+  --bs-btn-disabled-bg: #27262e;
+  --bs-btn-disabled-border-color: #d28b30;
+}
+
+.bs-icon.bs-icon-primary {
+  color: #1df5aa;
+  background: #27262e;
+  border: #fff;
+  border-width: 1px;
+  border-style: solid;
+  box-shadow: none;
+}
+
+.image-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+}
+
+.background-image {
+  width: 75%;
+  height: 75%;
+  object-fit: cover;
+}
+
+.overlay-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.text-primary span {
+  color: #1df5aa;
+}
+
+.text-primary {
+  color: var(--bs-primary) !important;
+}
+
+.border-primary {
+  border-color: var(--bs-primary) !important;
+}
+
+a {
+  color: #1df5aa;
+  text-decoration: none;
+  /*Optional: remove underline;*/
+}
+
+/* Link color on hover */
+
+a:hover {
+  color: #b27a25;
+  text-decoration: underline;
+  /*Optional: add underline on hover;*/
+}
+
+/* Link color on focus (when clicked or navigated by keyboard) */
+
+a:focus {
+  color: #1df5aa;
+  outline: none;
+  /*Optional: remove outline;*/
+}
+
+/* Link color for visited links */
+
+a:visited {
+  color: #A06720;
+}
+
